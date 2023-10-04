@@ -22,7 +22,7 @@ const vegData = recipesData.filter((el)=>{
     
   }else if(userRecipe.length == 0){
     console.log(userRecipe);
-    document.getElementById("recipes-container").innerHTML = "<h1>The Item is Unavailable now!</h1>"
+    document.getElementById("recipes-container").innerHTML = "<h1>The Item is Unavailable now !!! <span>&#128514;</span></h1>"
     console.log("Recipe Not Found")
   }
   
