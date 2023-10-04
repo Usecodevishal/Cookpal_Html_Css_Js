@@ -31,7 +31,7 @@ const vegData = recipesData.filter((el)=>{
     console.log("Recipe Not Found")
   }
   
-
+  document.getElementById("search-recipe").value = "";
     console.log("search button is clicked");
 
 
