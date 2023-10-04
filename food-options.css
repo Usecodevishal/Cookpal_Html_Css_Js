@@ -16,7 +16,7 @@
   width: 80%;
   height:fit-content;
   max-height:700px;
-  min-height:500px;
+  min-height:400px;
   overflow-y: scroll;
   
   display: flex;
