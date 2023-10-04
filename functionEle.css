@@ -1,0 +1,71 @@
+.js-function-sec{
+    width:90vw;
+    margin:auto;
+
+}
+
+.search-div{
+    display:flex;
+    justify-content: space-between;
+    height:42px;
+    width:100%;
+    background-color: #f3f3f3;
+}
+
+#search-btn{
+    width:55px;
+    height:42px;
+    transition:all ease 0.2s;
+}
+
+#search-btn:active{
+    scale:0.90;
+}
+
+#search-recipe{
+    text-decoration: none;
+     border:0px;
+     background-color: #f3f3f3;
+     margin-left:1rem;
+     width:90%;
+}
+
+#search-recipe:focus{
+    outline:none;
+}
+
+#filter-btn-vessel{
+    display:flex;
+    justify-content: left;
+    gap:2rem;
+    margin-top:1.5rem;
+}
+
+.filter-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:240px;
+    height:86px;
+    border-radius:10px;
+    transition: all ease 0.2s;
+
+}
+
+.filter-btn:active{
+    scale: 0.90;
+}
+
+.text-flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+   
+}
+
+.text-flex > img{
+    width:26px;
+    height:26px;
+
+}

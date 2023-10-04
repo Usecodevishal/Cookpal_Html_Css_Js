@@ -1,0 +1,86 @@
+#food-hero-section {
+  margin: auto;
+  width: 90vw;
+  height: fit-content;
+  
+  margin-top: 2rem;
+  display: flex;
+}
+
+.filter-options {
+  width: 20%;
+  height: 100%;
+}
+
+#recipes-container {
+  width: 80%;
+  height:fit-content;
+  max-height:700px;
+  overflow-y: scroll;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.recipe-card {
+  width: 305px;
+  height: fit-content;
+  padding:0.5rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius:16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition:all ease 0.2s;
+}
+
+.recipe-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cusine-img {
+  width: 289px;
+  height: 200px;
+  border-radius: 16px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.food-type {
+  
+  font-size: 10px;
+  font-weight: 500;
+ 
+  letter-spacing: 0em;
+  
+  text-align: left;
+  color: #a1a1a1;
+  margin-left: 1rem;
+}
+
+.name-star-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.time-red{
+color:#dc582a;
+font-size: 20px;
+font-weight: 600;
+margin:0;
+letter-spacing: 0em;
+text-align: left;
+margin-left:0.5rem;
+
+}
+
+.recipe-name {
+  margin:0;
+  font-size: 20px;
+  font-weight: 700;
+ 
+  letter-spacing: 0em;
+  text-align: left;
+}

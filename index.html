@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookpal : Everybody's Search Ends Here</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./food-options.css" />
+    <link rel="stylesheet" href="./functionEle.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/coocpal_logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="./assets/coocpal_logo.png" alt="site-logo" class="logo" />
+      </div>
+      <div class="nav-right">
+        <div class="nav-options-flex">
+          <p>Home</p>
+          <p>Explore</p>
+          <p>Help</p>
+        </div>
+        <div class="profile">
+          <img
+            src="./assets/profile-right.png"
+            alt="use-profile"
+            class="User"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- section for big image after nav bar -->
+    <div class="hero-image">
+      <div class="hero-img-text">
+        <p style="color: #dc582a; font-weight: 500; font-size: 20px">
+          Trending now
+        </p>
+        <h2>Mike’s famous salad with cheese</h2>
+        <p>By John Mike</p>
+      </div>
+    </div>
+
+    <!-- Section where all functinality elements are put in like
+    1.Search Bar
+    2. Filter By veg recipes, non-veg recipes -->
+    <section class="js-function-sec">
+      <h2><b>Search For Recipes</b></h2>
+      <div class="search-div">
+        <input type="text" id="search-recipe" placeholder="Search For Recipe" />
+        <img
+          src="./assets/Search-btn.png"
+          alt="search-btn"
+          id="search-btn"
+          oninput="userSearchedFor()"
+        />
+      </div>
+
+      <div id="filter-btn-vessel">
+        <div
+          class="filter-btn"
+          style="background-color: #eaaa00"
+          id="show-all-btn"
+        >
+          <div class="text-flex">
+            <p>All Recipes</p>
+            <img src="./assets/chevron.png" alt="forward_sign" />
+          </div>
+        </div>
+
+        <div
+          class="filter-btn"
+          style="background-color: #c4d600"
+          id="show-veg-btn"
+        >
+          <div class="text-flex">
+            <p>Veg Recipes Only</p>
+            <img src="./assets/chevron.png" alt="forward_sign" />
+          </div>
+        </div>
+        <div
+          class="filter-btn"
+          style="background-color: #dc582a"
+          id="show-non-veg-btn"
+        >
+          <div class="text-flex">
+            <p>Non-veg Recipes</p>
+            <img src="./assets/chevron.png" alt="forward_sign" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="food-hero-section">
+      <div class="filter-options">
+        <h2>Filters</h2>
+        <div class="rating-div">
+          <h3>Rating</h3>
+        </div>
+      </div>
+      <div id="recipes-container">
+        <!-- <div class="recipe-card"></div> -->
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="./recipes.js"></script>
+    <script src="./functionality.js"></script>
+  </body>
+</html>
